@@ -10,7 +10,6 @@ async function fetchpd() {
         const data = await response.json();
         console.log(data)
 
-
         cname.innerText = data.address
         timepoint.innerText = data.days[0].datetime
          conditionne.innerText = data.days[0].conditions
