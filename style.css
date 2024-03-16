@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(233, 242, 247);
+       height: 100%;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#conainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+#input{
+    height: 30px;
+    width: 40vh;
+    background-color: rgb(148, 228, 246);
+    border-radius: 9px;
+    border-color: white;
+    border-width: 1px;
+    
+
+
+}
+#firstcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 40%;
+    
+ }
+#button{
+    height: 32px;
+    width:40vh;
+    background-color: rgb(253, 228, 228);
+    border-radius: 10px;
+    border-color: white;
+    border-width: 2px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid;
+    border-color: rgb(241, 242, 244);
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background: linear-gradient(to top, rgb(170, 227, 246), rgb(247, 173, 173));
+    margin-top: 20px;
+
+}
+
+#bigbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+  
+ .flex-item {
+    flex: 1 0 calc(33.33% - 20px); /* Adjust width and margin as needed */
+    background-color: #f3e3d7;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+    justify-content:  right;
+    gap: 15px;
+    
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    
+    font-size: 14px; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    
+  }
+
+.txt{
+    display: flex;
+    text-align:flex-end;
+    background-color: #f3e3d7;
+    border-radius: 10px;
+    height: 2rem;
+    width: 4rem;
+    text-align: center;
+    justify-content: center;
+    border-color: bisque;
+    padding-top: 5px;
+    border-width: 0px;
+
+}
+:hover.txt{
+   color:  #843af3 ;
+}
+#content{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    flex-direction: column;
+    
+}
+.intxt{
+    display: flex;
+}
+
+
+#countryname{
+   font-family: 'Times New Roman', Cochin,sans-serif;
+   font-size: 25px;
+   font-weight: 1px;
+   font-weight: bold;
+   margin-left: 23px;
+
+
+}
+#cond{
+    color: rgb(42, 23, 84);
+    margin-left: 27px;
+    font-size: 20px;
+    font-family:    'Times New Roman', serif;
+
+}
+#time{
+    margin-left: 30px;
+     font-size: 17px;
+     color: rgb(158, 96, 4);
+
+}
+#teamprature{
+    margin-left: 30px;
+    font-size: 17px;
+
+}
+#decription{
+    margin-left: 30px;
+
+}
