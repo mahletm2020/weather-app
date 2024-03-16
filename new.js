@@ -6,7 +6,6 @@ const tempr = document.getElementById("teamprature")
 
 async function fetchpd() {
     try {
-
        //const response = await fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${encodeURIComponent(name.value)}/2022-03-05?key=JXGF9LV9TEPZ98LF7G937J87Z`)
         const data = await response.json();
         console.log(data)
